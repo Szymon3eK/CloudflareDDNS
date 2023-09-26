@@ -82,13 +82,4 @@ setInterval(function() {
       })
     })
   })
-}, 5000)
-
-bot.onText(/\/echo (.+)/, (msg, match) => {
-
-  const chatId = msg.chat.id;
-  const resp = match[1];
-
-  infocommand(chatId, resp)
-
-});
+}, 5000
