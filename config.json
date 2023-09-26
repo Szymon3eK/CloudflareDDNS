@@ -1,0 +1,24 @@
+{
+    "cloudflare": {
+        "email": "enter your email",
+        "apikey": "enter your api key",
+        "apitoken": "enter your apitoken",
+        "zone": "enter your zoneid"
+    },
+
+    "telegram": {
+        "token": "enter telegram token",
+        "chatid": "enter your chat id"
+    },
+
+    "subdomains": [
+        {
+            "domain": "domain1.example.com"
+        },
+        {
+            "domain": "domain2.example.com"
+        }
+
+        
+    ]
+}
